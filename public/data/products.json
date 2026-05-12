@@ -25,7 +25,7 @@
     "name": "Cloralex El Rendidor",
     "description": "Lavandina y desinfectante líquido.",
     "price": 2900,
-    "image": "./img/cloralex-rendidor.jpg"
+    "image": "/img/cloralex-rendidor.jpg"
   },
   {
     "id": 5,
