@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Ace Detergente en Polvo",
+    "description": "Detergente en polvo para lavado de ropa.",
+    "price": 4500,
+    "image": "/img/ace-detergente.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Fabuloso Lavanda",
+    "description": "Limpiador líquido multiusos con fragancia lavanda.",
+    "price": 3200,
+    "image": "/img/fabuloso-lavanda.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Pinol Limpiador",
+    "description": "Limpiador desinfectante multiusos.",
+    "price": 3800,
+    "image": "/img/pinol-limpiador.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Cloralex El Rendidor",
+    "description": "Lavandina y desinfectante líquido.",
+    "price": 2900,
+    "image": "./img/cloralex-rendidor.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Pétalo Papel Higiénico",
+    "description": "Papel higiénico ultra resistente.",
+    "price": 6700,
+    "image": "/img/petalo-papel-higienico.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Zote Jabón",
+    "description": "Jabón en barra para ropa.",
+    "price": 1800,
+    "image": "/img/zote-jabon.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Axion Lavavajillas",
+    "description": "Detergente líquido para platos.",
+    "price": 2100,
+    "image": "/img/axion.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Suavitel Suavizante",
+    "description": "Suavizante para ropa con fragancia floral.",
+    "price": 3400,
+    "image": "/img/suavitel.jpg"
+  }
+]

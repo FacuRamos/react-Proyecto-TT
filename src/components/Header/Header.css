@@ -1,0 +1,26 @@
+header{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header img{
+    width: 200px;
+}
+
+span{
+    font-size: 20px;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.logo-container a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    text-decoration: none;
+    color: #000;
+}
