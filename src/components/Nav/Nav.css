@@ -9,5 +9,21 @@
     text-decoration: none;
     color: blueviolet;
     font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.inCart {
+    font-size: 14px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
 }
 

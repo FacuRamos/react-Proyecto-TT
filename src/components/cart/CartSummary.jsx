@@ -5,8 +5,8 @@ export const CartSummary = ()=>{
 
     const total = getCartTotal();
 
-    return <>
+    return <div className="cart-summary">
     <p>TOTAL A PAGAR ${total}</p>
     <button className="btn bg-success primary" onClick={checkout}>FINALIZAR COMPRA</button>
-    </>
+    </div>
 }
