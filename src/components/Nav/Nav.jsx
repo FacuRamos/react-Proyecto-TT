@@ -1,7 +1,12 @@
 import { Link } from "react-router-dom"
 import "./Nav.css"
+import { useCart } from "../../context/CartContext"
 
 export const Nav = ()=>{
+
+    const {getTotalItems} = useCart();
+
+    const totalItems = getTotalItems();
 
     return(
         <nav>
@@ -10,7 +15,9 @@ export const Nav = ()=>{
                     <Link to={"/"}>Home</Link>
                 </li>
                 <li>
-                    <Link to={"/carrito"}>Carrito</Link>
+                    <Link to={"/carrito"}>
+                    Carrito {totalItems > 0 && <span className="inCart">{totalItems}</span>}
+                    </Link>
                 </li>
             </ul>
 

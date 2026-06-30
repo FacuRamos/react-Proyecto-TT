@@ -2,6 +2,7 @@ import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
 import { ItemDetail } from "../ItemDetail/ItemDetail"
 import "../ItemList/ItemList.css"
+import { getProductById } from "../../services/productsService"
 
 export const ItemDetailContainer = ()=>{
 
@@ -12,7 +13,7 @@ export const ItemDetailContainer = ()=>{
 
     useEffect(()=>{
 
-        fetch("/data/products.json")
+        /*fetch("/data/products.json")
             .then((res) => res.json())
             .then((data) => {
                 const item = data.find(d=>String(d.id) === id)
@@ -28,6 +29,12 @@ export const ItemDetailContainer = ()=>{
             .finally(() => {
                 setLoading(false)
             })
+                */
+
+            getProductById(id)
+                .then((data) => setItemDetail(data))
+                .catch((err)=> console.log(err))
+                .finally(()=>setLoading(false))
 
     },[])
 
